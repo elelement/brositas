@@ -1,0 +1,29 @@
+backend:
+  name: github
+  repo: elelement/brositas
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: products
+    label: Pulseras
+    folder: src/content/products
+    create: true
+    slug: "{{slug}}"
+    media_folder: "../../assets"
+    public_folder: "../../assets"
+    fields:
+      - { name: name, label: Nombre, widget: string }
+      - { name: collection, label: Colección, widget: string }
+      - { name: category, label: Categoría, widget: string }
+      - { name: material, label: Material, widget: string }
+      - { name: price, label: "Precio (€)", widget: number, value_type: float }
+      - { name: shortDescription, label: Descripción corta, widget: string }
+      - { name: dimensions, label: Medidas, widget: string }
+      - { name: finish, label: Acabado, widget: string, required: false }
+      - { name: leadTime, label: Elaboración, widget: string }
+      - { name: images, label: Fotos, widget: list, field: { name: image, label: Foto, widget: image } }
+      - { name: order, label: Orden, widget: number, default: 1 }
+      - { name: body, label: Descripción, widget: markdown }
