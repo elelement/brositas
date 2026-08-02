@@ -8,20 +8,20 @@ const { categories: allCategories, materials: allMaterials } = getProductFilters
 ---
 
 <BaseLayout
-  title="The Catalogue — Atelier Kō"
-  description="Browse every piece in the Atelier Kō catalogue. Filter by category and material — solid oak, ash, walnut. Hand-built to order."
+  title="Catálogo — Brositas"
+  description="Todo el catálogo de Brositas. Filtra por categoría. Hecho a mano por encargo."
 >
   <main id="main-content">
   <section class="mx-auto max-w-screen-xl px-6 pb-12 pt-20 md:pb-16 md:pt-28">
     <p class="mb-6 flex items-center gap-3 text-[11px] uppercase tracking-[0.3em] text-faded">
       <span class="inline-block h-px w-8 bg-ink/40"></span>
-      The Catalogue
+      Catálogo
     </p>
     <h1 class="max-w-[18ch] text-balance font-serif text-5xl leading-[0.95] md:text-6xl">
-      Every piece, <span class="italic text-accent">made to order.</span>
+      Hecho a mano, <span class="italic text-accent">hecho para ti.</span>
     </h1>
     <p class="mt-6 max-w-[52ch] leading-relaxed text-faded">
-      A small, slow catalogue — six pieces, three materials. Filter to find what fits your room, then we begin by selecting the board.
+      Un catálogo pequeño y sin prisa. Filtra por categoría o material y elige la pieza; a partir de ahí empieza el trabajo.
     </p>
   </section>
 
@@ -42,11 +42,11 @@ const { categories: allCategories, materials: allMaterials } = getProductFilters
           </div>
         </div>
         <label class="flex items-center gap-3 text-xs uppercase tracking-widest text-faded">
-          Sort
+          Ordenar
           <select class="border-b border-line bg-transparent py-1 pr-6 text-ink focus:border-ink focus:outline-none" data-catalog-sort>
-            <option value="featured">Featured</option>
-            <option value="price-asc">Price · Low to High</option>
-            <option value="price-desc">Price · High to Low</option>
+            <option value="featured">Destacados</option>
+            <option value="price-asc">Precio · Ascendente</option>
+            <option value="price-desc">Precio · Descendente</option>
           </select>
         </label>
       </div>
