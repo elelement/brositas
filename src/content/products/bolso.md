@@ -1,10 +1,10 @@
 ---
-name: Bolso
-collection: Pulseras
+name: Bolso simple
+collection: Artículos
 category: Bolsos
 material: Tela
 price: 25
-shortDescription: Bolso de tela para llevar la ropa de deporte.
+shortDescription: Bolso de tela multiusos
 dimensions: 25x25
 finish: ''
 leadTime: Artesanal, con máquina automática.
@@ -13,4 +13,4 @@ images:
 order: 1
 ---
 
-Bolso de diario para deporte y viajes.
+Bolso de diario para deporte, viajes o cualquier otro uso.
