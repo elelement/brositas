@@ -9,7 +9,7 @@ dimensions: 25x25
 finish: ''
 leadTime: Artesanal, con máquina automática.
 images:
-  - ../../assets/WhatsApp Image 2026-08-01 at 21.25.38.jpeg
+  - ../../assets/bolso-01.jpeg
 order: 1
 ---
 
